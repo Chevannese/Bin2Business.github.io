@@ -6881,7 +6881,7 @@ svg.leaflet-zoom-animated {
                     relative px-4 py-2 rounded-lg text-sm font-medium transition-colors
                     flex items-center gap-2
                     text-muted-foreground hover:text-foreground hover:bg-secondary
-                  "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy w-4 h-4" aria-hidden="true" data-replit-metadata="artifacts/bin2business/src/components/Navbar.tsx:42:18" data-component-name="Icon"><path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978"></path><path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978"></path><path d="M18 9h1.5a1 1 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z"></path><path d="M6 9H4.5a1 1 0 0 1 0-5H6"></path></svg>Leaderboard</a></div></div></div><div data-replit-metadata="artifacts/bin2business/src/components/Navbar.tsx:61:6" data-component-name="div" class="md:hidden fixed bottom-0 left-0 right-0 bg-background/90 backdrop-blur-xl border-t border-border/50 pb-safe z-50"><div data-replit-metadata="artifacts/bin2business/src/components/Navbar.tsx:62:8" data-component-name="div" class="flex justify-around items-center h-16 px-2"><a data-replit-metadata="artifacts/bin2business/src/components/Navbar.tsx:67:14" data-component-name="Link" href="index.html" class="
+                  "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy w-4 h-4" aria-hidden="true" data-replit-metadata="artifacts/bin2business/src/components/Navbar.tsx:42:18" data-component-name="Icon"><path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978"></path><path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978"></path><path d="M18 9h1.5a1 1 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z"></path><path d="M6 9H4.5a1 1 0 0 1 0-5H6"></path></svg>Leaderboard</a><button id="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;border-radius:10px;border:1px solid rgba(128,128,128,0.25);background:transparent;cursor:pointer;font-size:13px;font-weight:500;color:inherit;transition:background 0.2s,border-color 0.2s;white-space:nowrap;margin-left:8px;" onmouseover="this.style.background='rgba(128,128,128,0.12)'" onmouseout="this.style.background='transparent'"><span id="theme-icon">☀️</span><span id="theme-label">Light</span></button></div></div></div><div data-replit-metadata="artifacts/bin2business/src/components/Navbar.tsx:61:6" data-component-name="div" class="md:hidden fixed bottom-0 left-0 right-0 bg-background/90 backdrop-blur-xl border-t border-border/50 pb-safe z-50"><div data-replit-metadata="artifacts/bin2business/src/components/Navbar.tsx:62:8" data-component-name="div" class="flex justify-around items-center h-16 px-2"><a data-replit-metadata="artifacts/bin2business/src/components/Navbar.tsx:67:14" data-component-name="Link" href="index.html" class="
                   flex flex-col items-center justify-center w-full h-full gap-1
                   text-muted-foreground
                 "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard w-5 h-5" aria-hidden="true" data-replit-metadata="artifacts/bin2business/src/components/Navbar.tsx:75:16" data-component-name="Icon"><rect width="7" height="9" x="3" y="3" rx="1"></rect><rect width="7" height="5" x="14" y="3" rx="1"></rect><rect width="7" height="9" x="14" y="12" rx="1"></rect><rect width="7" height="5" x="3" y="16" rx="1"></rect></svg><span data-replit-metadata="artifacts/bin2business/src/components/Navbar.tsx:76:16" data-component-name="span" class="text-[10px] font-medium">Dashboard</span></a><a data-replit-metadata="artifacts/bin2business/src/components/Navbar.tsx:67:14" data-component-name="Link" href="sell.html" class="
@@ -6915,6 +6915,52 @@ svg.leaflet-zoom-animated {
     <script type="module" src="./marketplace_files/main.tsx"></script>
   <script src="./marketplace_files/replit-pill.global.js.download" data-repl-id="08cef15d-912d-4acc-badb-b8391f34f53f"></script>
 
+<style id="light-mode-styles">
+  body.light-mode,
+  body.light-mode .bg-background,
+  body.light-mode [class*="bg-background"] {
+    background-color: #f9fafb !important;
+    color: #1a202c !important;
+  }
+  body.light-mode { --primary: 144 70% 28% !important; }
+  body.light-mode nav,
+  body.light-mode [class*="bg-background\/80"],
+  body.light-mode [class*="bg-background\/90"] {
+    background-color: rgba(249,250,251,0.85) !important;
+    border-color: rgba(0,0,0,0.1) !important;
+  }
+  body.light-mode [class*="text-foreground"] { color: #1a202c !important; }
+  body.light-mode [class*="text-muted-foreground"] { color: #5a6680 !important; }
+  body.light-mode [class*="bg-card"] { background-color: #ffffff !important; }
+  body.light-mode [class*="border-border"] { border-color: rgba(0,0,0,0.12) !important; }
+  body.light-mode [class*="bg-secondary"] { background-color: #edf2f7 !important; }
+  body.light-mode section { background-color: #ffffff !important; border-color: rgba(0,200,80,0.2) !important; }
+  body.light-mode [class*="bg-blue-400\/10"] { background-color: rgba(59,130,246,0.08) !important; }
+  body.light-mode [class*="bg-purple-400\/10"] { background-color: rgba(168,85,247,0.08) !important; }
+  body.light-mode [class*="bg-primary\/10"] { background-color: rgba(0,200,80,0.08) !important; }
+  body.light-mode [class*="bg-emerald-400\/10"] { background-color: rgba(52,211,153,0.08) !important; }
+  body.light-mode .text-emerald-300 { color: hsl(152 60% 32%) !important; }
+  body.light-mode #theme-toggle { border-color: rgba(0,0,0,0.2) !important; }
+</style>
+<script>
+  function toggleTheme() {
+    const isLight = document.body.classList.toggle('light-mode');
+    localStorage.setItem('b2b-theme', isLight ? 'light' : 'dark');
+    document.getElementById('theme-icon').textContent = isLight ? '🌙' : '☀️';
+    document.getElementById('theme-label').textContent = isLight ? 'Dark' : 'Light';
+  }
+  (function() {
+    if (localStorage.getItem('b2b-theme') === 'light') {
+      document.body.classList.add('light-mode');
+      window.addEventListener('DOMContentLoaded', function() {
+        var icon = document.getElementById('theme-icon');
+        var label = document.getElementById('theme-label');
+        if (icon) icon.textContent = '🌙';
+        if (label) label.textContent = 'Dark';
+      });
+    }
+  })();
+</script>
 <div id="replit-pill-host"><template shadowrootmode="closed"><style>
         #replit-pill {
           position: fixed;
